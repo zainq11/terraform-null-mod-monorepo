@@ -1,8 +1,8 @@
-module {
+module "child1" {
   source = "./modules/child1"
 }
 
-module {
+module "child2" {
   source = "./modules/child2"
 }
 
