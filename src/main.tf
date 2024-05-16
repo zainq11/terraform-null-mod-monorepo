@@ -9,4 +9,6 @@ module "child2" {
 resource "null_resource" "src_r1" {}
 resource "null_resource" "src_r2" {}
 resource "null_resource" "src_r3" {}
+resource "null_resource" "src_r4" {}
+
 
