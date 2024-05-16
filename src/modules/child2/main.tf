@@ -1,4 +1,4 @@
-module {
+module "shared" {
   source = "../shared"
 }
 
