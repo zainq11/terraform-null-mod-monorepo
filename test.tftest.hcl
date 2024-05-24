@@ -4,6 +4,6 @@ run "valid_resources_count" {
  
   assert {
     condition = length(null_resource.tf1) == 1
-    error_message = "null_resource count is incorrect"
+    error_message = "null_resource count is not correct"
   }
 }
