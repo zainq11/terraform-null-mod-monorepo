@@ -3,3 +3,5 @@ module "global_1" {
 }
 
 resource "null_resource" "shared_r1" {}
+resource "null_resource" "shared_r2" {}
+
