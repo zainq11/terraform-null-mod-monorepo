@@ -20,7 +20,7 @@ variable "length" {
 
     validation{
         condition = var.length > 0
-        error_message = "length must be positively positive x3" 
+        error_message = "length must be positively positive x4" 
     }
 }
 
